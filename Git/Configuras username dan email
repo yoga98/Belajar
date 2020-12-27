@@ -1,0 +1,29 @@
+Cara download git
+-caranya melihat document untuk Linux atau mac /Download
+-configurasi dari git ke github
+
+
+scoope dalam github
+-system
+	-/etc/gitconfig
+	-program Files\git\etx\gitconfig
+-user
+	- ~/.gitconfig
+	- $HOME\.gitconfig
+Projeck
+	-my_projek/,git/config
+
+cara configurasi awal
+-system
+	-git config --system
+-user
+	-git config --global
+-projek
+	git config
+
+contoh untuk configurasi scoope projek atau local
+1. buat projek dalam folder 
+	-git init
+	-git config user.name "nama Pengguna"
+	-git config user.email "nama email pengguna "
+	-cara lihat git config --list

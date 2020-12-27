@@ -1,0 +1,23 @@
+Materi Github
+
+1)mencatatn setiap peribahan
+-file atau directioreis 
+-bisa membuat programing dengan versi 1, versi 2, vers3 untuk bisa menjadi perbandingan,
+2)contoh version contetn (non-code)
+-ubah nama
+-track changes (ms word
+-history
+-wiki
+-undo : ctr+z
+
+
+git diff untuk membandingkan comit sebelum dan sesudah
+git diff membandingkan file yang sudah di ubah dengan yang sudah masuk repository
+
+//cara menghapus file dengan git
+git rm <namafile>
+benar-benar hilang dari projek tersebut
+
+//cara mengubah nama atau memindahkan file folder
+git mv <namafile awal> <nama file sudah dirubah/>
+

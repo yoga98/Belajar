@@ -1,0 +1,37 @@
+    a {
+        text-decoration: none;
+        display: inline-block;
+        background-color: blue;
+        margin-top: 10px;
+        padding: 10px;
+        font-size: 18px;
+        color: white;
+        border-radius: 10px;
+    }
+    
+    a:hover {
+        background-color: red;
+    }
+    
+    .container {
+        margin: auto;
+        width: 600px;
+    }
+    
+    span {
+        margin-bottom: 50px;
+        display: block
+    }
+    
+    img {
+        padding: 5px;
+        float: left;
+    }
+    
+    .float {
+        border: 5px solid salmon;
+        overflow: auto;
+    }
+    /* menggunakan teknik clear 1 
+    menggunakan overflow auto namun kurang baik
+    */

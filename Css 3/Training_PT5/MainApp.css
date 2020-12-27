@@ -1,0 +1,321 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+
+/* HTML5 display-role reset for older browsers */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+/**
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    contenteditable attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that are clearfixed.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+
+.cf:before,
+.cf:after {
+    content: " ";
+    /* 1 */
+    display: table;
+    /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+
+/**
+  * For IE 6/7 only
+  * Include this rule to trigger hasLayout and contain floats.
+  */
+
+.cf {
+    *zoom: 1;
+}
+
+
+/* Mulai css */
+
+body {
+    background-image: url(./email-pattern.png);
+    background-color: #eaeaea;
+}
+
+.container {
+    border: 2px solid lightslategray;
+    width: 960px;
+    margin: 50px auto;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: white;
+}
+
+.gbr {
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    top: -15px;
+    right: 460px;
+}
+
+.gbr a {
+    position: relative;
+    top: 100px;
+    left: 1000px;
+    text-indent: -9999px;
+}
+
+.header {
+    font-size: 35px;
+    font-weight: 400;
+}
+
+.navigasi {
+    margin-top: 20px;
+}
+
+.navigasi li {
+    display: inline-block;
+    padding-right: 5px;
+}
+
+.navigasi ul li a {
+    text-decoration: none;
+    color: salmon;
+    padding: 4px;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+.navigasi ul li a:hover {
+    background-color: blue;
+    color: white;
+}
+
+.hero {
+    height: 400px;
+    background-image: url(./ps5.png);
+    margin-top: 20px;
+    background-size: cover;
+    background-position: 0 -100px;
+    border-top: 4px solid salmon;
+    border-bottom: 5px solid lightseagreen;
+}
+
+.penulis {
+    margin-top: 20px;
+    margin-left: 5px;
+}
+
+.penulis .title {
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+.penulis .text {
+    margin-bottom: 20px;
+}
+
+.penulis .text a {
+    text-decoration: none;
+}
+
+.penulis .text a:hover {
+    background-color: aqua;
+}
+
+.main p {
+    margin-top: 10px;
+    font-size: 18px;
+    text-align: justify;
+}
+
+.main {
+    margin-left: 5px;
+    float: left;
+    width: 600px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.sidebar {
+    width: 300px;
+    float: right;
+}
+
+.sidebar h2 {
+    font-size: 16px;
+    font-weight: bold;
+    color: #666;
+    margin-bottom: 5px;
+}
+
+.sidebar img {
+    width: 90px;
+    height: 100px;
+    float: left;
+    padding-right: 10px;
+}
+
+.sidebar p {
+    font-size: 12px;
+    text-align: justify;
+    padding-right: 10px;
+    box-sizing: border-box;
+}
+
+.copu {
+    margin-top: 25px;
+    background-color: #333333;
+    color: white;
+    height: 50px;
+    padding-top: 15px;
+    box-sizing: border-box;
+}
+
+.copu .copy {
+    color: #eaeaea;
+    text-align: center;
+    /* font-size: 12px; */
+}
+
+.copu .copy a {
+    text-decoration: none;
+    color: rgb(19, 78, 206);
+}

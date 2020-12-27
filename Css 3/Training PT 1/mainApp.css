@@ -1,0 +1,62 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 10px;
+}
+
+
+.judul{
+    font-size: 15;
+    color: blue;
+    text-transform: capitalize;
+    font-weight: 700;
+    background-color: aqua;
+}   
+.judul:hover{
+    color: white;
+}
+.p1{
+    text-align: justify;
+    letter-spacing: 0.5px;
+    word-spacing: 2px;
+    line-height: 25px;
+    text-indent: 50px;
+}
+.p2{
+    text-align: justify;
+}
+.text{
+    color: rebeccapurple;
+}
+.card{
+    background-color: aquamarine;
+    margin: 20;
+    border-color: blue;
+    display: inline-block;
+}
+.close{
+    background-color:blue;
+    color: wheat;
+    border-radius: 10px;
+    font-size: 12px;
+}
+.close:hover{
+    background-color: chartreuse;
+}
+.send{
+    background-color: chocolate;
+    color: wheat;
+    border-radius: 10px;
+   text-decoration: none;
+   font-size: 12px;
+}
+.send:hover{
+    background-color: red;
+    color: white
+}
+.input-one{
+    margin-right: 20px;
+    padding: 5px;
+}
+.input-one:hover{
+    border-color: aqua;
+}
