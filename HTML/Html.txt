@@ -1,0 +1,46 @@
+Html adalah singkatan dari Hypertext Markup Language
+Pertama diciptakan oleh TIM Berners-Lee
+------------------------------------------------------
+<!doctype html> => menuliskan html dalam versi 5 atau versi yang paling baru 
+<html> => tag html
+<head></head> => bisa simpan style, judu title, script JS dan Meta data
+<title></title> => ini tempat memberi judul
+<body></body> =>
+<meta> berfungsi untuk menyimpan informasi untuk web 
+tag adalah pembungkis 
+
+<br> =>menambah baris baru
+<hr> =>memberi garis baru
+
+<ol></ol> =>membuat list terurut (order list) mempunyai type (1,A,i,I,a)
+<ul></ul> => membuat list tidak terurut  mempunyai type(square,circle,)
+<dl></dl> =>membuat termonolgi dan definisi
+
+<a targer=""> </a>
+pageanchor =>pindah kehalaman yang lebih spesifik
+_self =>membuja link di halaman sama
+_blank =>membuka link halaman baru
+
+tag img
+src 
+alt ->alternatif gambar jika tidak ada gambar maka keluar text
+width=> mengatur lebar
+height=>mengatur tinggi gambar
+title=>memberi judul pada gambar
+
+
+//table
+border=> untuk menambahkan gari pada border gari
+cellspacing=> memberi jarak antar sell
+cellpadding=> memberi luas pada sebuah sell
+colspan=> untuk menggabungkan horizontal
+rowspan=> untuk menggabungkan vertical
+
+//form
+menginput data pada colom atau pilihan atau menekan sebuah tombol
+
+input => menginput sesuatu
+textarea=>mengisikan pesan lebih banyak
+select=>digunakan untuk dropdown atau drobox
+button=> tempat untuk menekan sesuatu
+labe=>untuk memberikan suatu pada sebuah objek
